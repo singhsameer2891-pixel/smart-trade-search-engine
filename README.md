@@ -1,7 +1,7 @@
 # 🚀 Smart Trade Search Engine (Intent Parser)
 
 **Live Demo:** [https://trade-search-api.onrender.com/docs](https://trade-search-api.onrender.com/docs)  
-*(Try inputs: "Nifty 27 Jan", "Reliance 26k", "Nifti", "20 Jan")*
+*(Try inputs: "Nifty 27 Jan", "Reliance 1.4k", "Nifti", "20 Jan")*
 
 ---
 
