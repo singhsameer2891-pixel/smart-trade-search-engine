@@ -4,7 +4,7 @@ from .database import SessionLocal
 from .services.search_service import search_logic
 
 # 1. Initialize the App
-app = FastAPI(title="Trade Search API")
+app = FastAPI(title="Smart Trade Search API")
 
 # 2. Database Dependency (Opens/Closes DB for each request)
 def get_db():
@@ -36,4 +36,4 @@ def search_endpoint(q: str, db: Session = Depends(get_db)):
 # 4. Root Endpoint (Health Check)
 @app.get("/")
 def root():
-    return {"message": "Trade Search API is running. Go to /search?q=nifty"}
+    return {"message": "Smart Trade Search API is running. Go to /search?q=nifty"}
